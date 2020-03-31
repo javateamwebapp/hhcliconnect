@@ -22,7 +22,7 @@ public class DBUtil {
 	static{
 		try {
 			properties = new Properties();
-			properties.load(new FileInputStream(Path+"//database.properties"));
+			properties.load(new FileInputStream("D:\\jee-2019-032\\MYJAVA_WORK\\hhcliconnect\\database.properties"));
 			dataSource = new HikariDataSource();
 			dataSource.setDriverClassName(properties.getProperty(DB_DRIVER_CLASS));
 			dataSource.setJdbcUrl(properties.getProperty(DB_URL));
