@@ -9,6 +9,40 @@
   
   <dependencies>
   
+<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20190722</version>
+</dependency>
+
+<dependency>
+    <groupId>net.sf.jasperreports</groupId>
+    <artifactId>jasperreports</artifactId>
+    <version>6.5.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.mysql.jdbc/org.motechproject.com.mysql.jdbc -->
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>6.0.2</version>
+</dependency>
+
+<dependency>
+        <groupId>net.sf.json-lib</groupId>
+        <artifactId>json-lib</artifactId>
+        <version>2.4</version>
+        <classifier>jdk15</classifier>
+</dependency>
+
+<!-- <dependency org="net.sf.json-lib" name="json-lib" rev="2.4">
+        <artifact name="json-lib" url="http://repo1.maven.org/maven2/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar"/>     
+    </dependency> -->
+  
     <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>

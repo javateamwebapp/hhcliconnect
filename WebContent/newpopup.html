@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body onload="setTimeout(close_window(),2000);">
+
+
+<script>
+
+function close_window() {
+	//self.close();
+	alert(1);
+	window.opener.close();
+	window.close();
+	
+	//setTimeout(UnblockFunction , 3000);
+	
+	}
+	
+	
+</script>
+</body>
+</html>
