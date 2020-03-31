@@ -11,7 +11,7 @@
   </welcome-file-list>
   
   <listener>
-        <listener-class>organogram.hhcl.invoker.OrganogramListener</listener-class>
+        <listener-class>iconnect.hhcl.invoker.IconnectListener</listener-class>
 </listener>
  <listener>
 	<listener-class>
