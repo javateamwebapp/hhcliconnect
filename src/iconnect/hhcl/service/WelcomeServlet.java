@@ -65,7 +65,7 @@ public class WelcomeServlet extends HttpServlet {
     	try{
     		//ctx=arg0.getSession().getServletContext();
     		System.out.println("className" +className);
-			bundle = ResourceBundle.getBundle("MessageBundle.properties");
+			bundle = ResourceBundle.getBundle("MessageBundle");
 			Message=bundle.getString("WelcomeServlet.Fy_Year");
 		}catch(Exception err) {
 			err.printStackTrace();
